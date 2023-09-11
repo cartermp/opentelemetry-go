@@ -11,7 +11,7 @@ It provides a set of APIs to directly measure performance and behavior of your s
 
 ## Project Status
 
-| Signal  | Status     | Project               |
+| Signal  | Status     | Work Tracking Project |
 |---------|------------|-----------------------|
 | Traces  | Stable     | N/A                   |
 | Metrics | Mixed [1]  | [Go: Metric SDK (GA)] |
@@ -53,16 +53,16 @@ Currently, this project supports the following environments.
 
 | OS      | Go Version | Architecture |
 |---------|------------|--------------|
+| Ubuntu  | 1.21       | amd64        |
 | Ubuntu  | 1.20       | amd64        |
-| Ubuntu  | 1.19       | amd64        |
+| Ubuntu  | 1.21       | 386          |
 | Ubuntu  | 1.20       | 386          |
-| Ubuntu  | 1.19       | 386          |
+| MacOS   | 1.21       | amd64        |
 | MacOS   | 1.20       | amd64        |
-| MacOS   | 1.19       | amd64        |
+| Windows | 1.21       | amd64        |
 | Windows | 1.20       | amd64        |
-| Windows | 1.19       | amd64        |
+| Windows | 1.21       | 386          |
 | Windows | 1.20       | 386          |
-| Windows | 1.19       | 386          |
 
 While this project should work for other systems, no compatibility guarantees
 are made for those systems currently.
